@@ -1,14 +1,12 @@
 import csv
-
 # Specify the path to your CSV file
-csv_file_path = './Free_Proxy_List.csv'
+csv_file_path = '/sdcard/Telegram/Telegram Files/ebay_usa_5k.csv'
 
 # Open the CSV file
 with open(csv_file_path, 'r') as file:
     # Create a CSV reader
     csv_reader = csv.reader(file)
-
     # Iterate through the rows in the CSV file
     for row in csv_reader:
         # Each row is a list representing the columns in that row
-        print(row.index(,0,2))
+        print(row)
